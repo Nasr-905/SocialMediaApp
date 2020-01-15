@@ -1,217 +1,73 @@
 <html>
-    <head>
-        <style>
-            body{
-                background-color: azure
-            }
-        </style>
-        <!-- Compiled and minified CSS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-        <!-- Compiled and minified JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-        <!--Import Google Icon Font-->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<body>
     
-        <title>Opinionated</title>        
-        
-    </head>
-    <body>  
-  
- 
-<!-- Navbar goes here -->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-  <nav>
-    <div class="nav-wrapper orange lighten-3">
-      <a href="#!" class="brand-logo blue-text">Opinionated</a>
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="sass.html" class="blue-text">Top Posts</a></li>
-        <li><a href="badges.html" class="blue-text">Profile</a></li>
-        <li><a href="collapsible.html" class="blue-text">Settings</a></li>
-        <li><a href="mobile.html" class="blue-text">Saved Posts</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <ul class="sidenav" id="mobile-demo">
-    <li><a href="sass.html">Top Posts</a></li>
-    <li><a href="badges.html">Profile</a></li>
-    <li><a href="collapsible.html">Settings</a></li>
-    <li><a href="mobile.html">Saved Posts</a></li>
-  </ul>
-          
-    <!-- Page Layout here -->
-        
-        
-    <div class="row">
-
-      <div class="col s12 m4 l3 teal lighten-2"> <!-- Note that "m4 l3" was added -->
-        <!-- Grey navigation panel
-
-              This content will be:
-          3-columns-wide on large screens,
-          4-columns-wide on medium screens,
-          12-columns-wide on small screens  -->
-          
-  <div class="row">
-    <div class="col s12 m6">
-      <div class="card blue-grey darken-1">
-        <div class="card-content white-text">
-          <span class="card-title">Welcome Back John Doe!</span>
-          <p></p>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Book Genres
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Fantasy</a>
+          <a class="dropdown-item" href="#">Non-Fiction</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">History</a>
         </div>
-        <div class="card-action">
-          <a href="#">375 points</a>
-          <a href="#">5 Awards</a>
-        </div>
-      </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class= "btn btn-outline-info" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <h1 class="display-4">Hello, world!</h1>
+  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <hr class="my-4">
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
+    
+<div class="card-deck">
+  <div class="card">
+    <img src="https://video-images.vice.com/articles/5d44c9622980b0000824a7e3/lede/1564789576071-GettyImages-949118068.jpeg?crop=1xw%3A0.8419xh%3B0xw%2C0.1581xh&resize=2000%3A*" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
     </div>
   </div>
-            <div class="row">
-    <div class="col s12 m6">
-      <div class="card blue-grey darken-1">
-        <div class="card-content white-text">
-          <span class="card-title">Stream</span>
-            <br>
-          <p>Jane Doe: Liked your opinion.</p>
-            <br>
-            <p>Nas_C4r: Commented on your discussion.</p>
-            <br>
-          <p>JSON!: Awarded you Gold!</p>
-        </div>
-        <div class="card-action">
-          <a href="#">Notification Settings</a>
-            <br>
-          <a href="#">Complete History</a>
-        </div>
-      </div>
+  <div class="card">
+    <img src="https://blog.hubspot.com/hubfs/books-every-aspiring-ceo-should-read.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
     </div>
   </div>
-          
-          <div class="container">
-          <div class="col s12 l6">
-
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-      </div>
-          </div>
-          </div>
-
-      <div class="col s12 m8 l9"> <!-- Note that "m8 l9" was added -->
-        <!-- Teal page content
-
-              This content will be:
-          9-columns-wide on large screens,
-          8-columns-wide on medium screens,
-          12-columns-wide on small screens  -->
-           <div class="container">
-    <div class="row">
-        </div>
-                <div class="card">
-                <div class="card-image">
-            <a href="" class="halfway-fab btn-floating cyan pulse">
-              <i class="material-icons">search</i>
-            </a>
-          </div>
-        <div class="card-panel hoverable truncate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis aliquam orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</div>
-                
-        </div>
-        <div class="card">
-      <div class="col s12 l6">
-        <div class="card hoverable">
-          <div class="card-image">
-            <a href="" class="halfway-fab btn-floating cyan pulse">
-              <i class="material-icons">favorite</i>
-            </a>
-          </div>
-          <div class="card-content">
-            <span class="card-title">Thoughts on The Federal Elections?</span>
-              <h6 class="flow-text green accent-2 center-align">DISCUSSION</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis aliquam orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-          </div>
-          <div class="card-action">
-            <a href="">Share</a>
-            <a href="">Comments</a>
-          </div>
-        </div>
-      </div>
-      
-        
-        <div class="col s12 l6">
-        <div class="card hoverable">
-          <div class="card-image">
-            <a href="" class="halfway-fab btn-floating cyan pulse">
-              <i class="material-icons">favorite</i>
-            </a>
-          </div>
-          <div class="card-content">
-            <span class="card-title">I Am In Favor of Britain Leaving The European Union</span>
-              <h6 class="blue lighten-3 center-align flow-text">OPINION</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis aliquam orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-          </div>
-          <div class="card-action">
-            <a href="">Share</a>
-            <a href="">Comment</a>
-          </div>
-        </div>
-      </div>
-        <div class="col s12 l6">
-        <div class="card hoverable">
-          <div class="card-image">
-            <a href="" class="halfway-fab btn-floating cyan pulse">
-              <i class="material-icons">favorite</i>
-            </a>
-          </div>
-          <div class="card-content">
-            <span class="card-title">Create A Proffessional Website With WIX!</span>
-            <h6 class="flow-text Amber accent-4 center-align">AD</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis aliquam orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-          </div>
-          <div class="card-action">
-            <a href="">Share</a>
-            <a href="">Comment</a>
-          </div>
-        </div>
-      </div>
-        <div class="col s12 l6">
-        <div class="card hoverable">
-          <div class="card-image">
-            <a href="" class="halfway-fab btn-floating cyan pulse">
-              <i class="material-icons">favorite</i>
-            </a>
-          </div>
-          <div class="card-content">
-            <span class="card-title">How Do You Think The Impeachment Will End?</span>
-            <h6 class="flow-text deep-purple accent-1 center-align">Poll</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis aliquam orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-          </div>
-          <div class="card-action">
-            <a href="">Share</a>
-            <a href="">Comment</a>
-          </div>
-        </div>
-      </div>
+  <div class="card">
+    <img src="https://video-images.vice.com/articles/5d44c9622980b0000824a7e3/lede/1564789576071-GettyImages-949118068.jpeg?crop=1xw%3A0.8419xh%3B0xw%2C0.1581xh&resize=2000%3A*" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
     </div>
+
   </div>
-
-
-      </div>
-
-    </div>
-          
-        
-        
-        
-        
-    </body>
+</div>
+</body>
+</head>
 </html>
