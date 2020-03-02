@@ -1,0 +1,57 @@
+[debug] [2020-03-02T19:30:57.503Z] ----------------------------------------------------------------------
+[debug] [2020-03-02T19:30:57.505Z] Command:       /usr/local/bin/firebase /Users/Nasrudeen.Oladimeji/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase serve
+[debug] [2020-03-02T19:30:57.505Z] CLI Version:   7.14.0
+[debug] [2020-03-02T19:30:57.505Z] Platform:      darwin
+[debug] [2020-03-02T19:30:57.505Z] Node Version:  v12.13.1
+[debug] [2020-03-02T19:30:57.506Z] Time:          Mon Mar 02 2020 14:30:57 GMT-0500 (Eastern Standard Time)
+[debug] [2020-03-02T19:30:57.506Z] ----------------------------------------------------------------------
+[debug] [2020-03-02T19:30:57.507Z] 
+[debug] [2020-03-02T19:30:57.517Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-02T19:30:57.517Z] > authorizing via signed-in user
+[debug] [2020-03-02T19:30:57.517Z] [iam] checking project social-7a6e9 for permissions ["firebase.projects.get"]
+[debug] [2020-03-02T19:30:57.520Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/social-7a6e9:testIamPermissions  
+
+[debug] [2020-03-02T19:30:57.840Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-02T19:30:57.844Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/social-7a6e9  
+ 
+[debug] [2020-03-02T19:30:58.027Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/Nasrudeen.Oladimeji/Desktop/Tutorial'...
+[info] 
+[debug] [2020-03-02T19:30:58.032Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/social-7a6e9/webApps/-/config  
+ 
+[debug] [2020-03-02T19:30:58.360Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5015
+[debug] [2020-03-02T19:43:57.153Z] ----------------------------------------------------------------------
+[debug] [2020-03-02T19:43:57.155Z] Command:       /usr/local/bin/firebase /Users/Nasrudeen.Oladimeji/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase serve
+[debug] [2020-03-02T19:43:57.155Z] CLI Version:   7.14.0
+[debug] [2020-03-02T19:43:57.155Z] Platform:      darwin
+[debug] [2020-03-02T19:43:57.155Z] Node Version:  v12.13.1
+[debug] [2020-03-02T19:43:57.156Z] Time:          Mon Mar 02 2020 14:43:57 GMT-0500 (Eastern Standard Time)
+[debug] [2020-03-02T19:43:57.157Z] ----------------------------------------------------------------------
+[debug] [2020-03-02T19:43:57.157Z] 
+[debug] [2020-03-02T19:43:57.181Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-02T19:43:57.182Z] > authorizing via signed-in user
+[debug] [2020-03-02T19:43:57.182Z] [iam] checking project social-7a6e9 for permissions ["firebase.projects.get"]
+[debug] [2020-03-02T19:43:57.184Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/social-7a6e9:testIamPermissions  
+
+[debug] [2020-03-02T19:43:57.506Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-02T19:43:57.509Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/social-7a6e9  
+ 
+[debug] [2020-03-02T19:43:57.721Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/Nasrudeen.Oladimeji/Desktop/Tutorial'...
+[info] 
+[debug] [2020-03-02T19:43:57.726Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/social-7a6e9/webApps/-/config  
+ 
+[debug] [2020-03-02T19:43:58.046Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5020
